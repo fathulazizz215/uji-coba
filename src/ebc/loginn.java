@@ -40,7 +40,7 @@ public class loginn extends javax.swing.JFrame {
 
         jLabel1.setText("username");
 
-        jLabel2.setText("passworf");
+        jLabel2.setText("password");
 
         loginButton1.setText("login");
         loginButton1.addActionListener(this::loginButton1ActionPerformed);
