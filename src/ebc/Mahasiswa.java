@@ -1,0 +1,62 @@
+package ebc;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+
+/**
+ *
+ * @author User
+ */
+public class Mahasiswa {
+    
+    private String username = "";
+    private String password = "";
+    private String rtp = "";
+
+    /**
+     * @param args the command line arguments
+     */
+    
+    public void setUsername (String username){
+        this.username = username;
+    }
+    
+        
+    public String getUsername(){
+        return this.username;
+    }
+    
+    public void setPassword(String password){
+        this.password = password;
+    }
+    
+    public String getPassword(){
+        return this.password;
+    }
+    
+    public void setRtp(String rtp){
+        this.rtp = rtp;
+    }
+    
+    public String getRtp(){
+        return this.rtp;
+    }
+    
+    public Mahasiswa(String username, String password, String rtp){
+        this.username = username;
+        this.password = password;
+        this.rtp = rtp;
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        save fu = new save();
+        fu.setLocationRelativeTo(null);
+        fu.setVisible(true);
+    }
+
+    
+}
